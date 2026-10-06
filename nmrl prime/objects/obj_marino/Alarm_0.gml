@@ -1,0 +1,1 @@
+estado = ESTADO_MARINO.PATRULHA;
