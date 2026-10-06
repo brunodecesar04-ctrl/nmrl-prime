@@ -1,15 +1,13 @@
 function init_global_inputs() {
-    if (variable_global_exists("input_initialized")) return;
-
-    global.input_parry = false;
-    global.input_ataque = false;
-    global.input_dash = false;
-    global.input_cima = false;
-    global.input_baixo = false;
-    global.input_esquerda = false;
-    global.input_direita = false;
-    global.control_scheme = "keyboard";
-    global.gamepad_id = -1;
+    if (!variable_global_exists("input_parry")) global.input_parry = false;
+    if (!variable_global_exists("input_ataque")) global.input_ataque = false;
+    if (!variable_global_exists("input_dash")) global.input_dash = false;
+    if (!variable_global_exists("input_cima")) global.input_cima = false;
+    if (!variable_global_exists("input_baixo")) global.input_baixo = false;
+    if (!variable_global_exists("input_esquerda")) global.input_esquerda = false;
+    if (!variable_global_exists("input_direita")) global.input_direita = false;
+    if (!variable_global_exists("control_scheme")) global.control_scheme = "keyboard";
+    if (!variable_global_exists("gamepad_id")) global.gamepad_id = -1;
     global.input_initialized = true;
 }
 
@@ -47,9 +45,7 @@ function find_gamepad_for_scheme(_scheme) {
 }
 
 function update_global_inputs() {
-    if (!variable_global_exists("input_initialized")) {
-        init_global_inputs();
-    }
+    init_global_inputs();
 
     global.input_parry = false;
     global.input_ataque = false;
