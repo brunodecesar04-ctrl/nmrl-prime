@@ -1,0 +1,1 @@
+total_inimigos = instance_number(obj_enemy_parent);

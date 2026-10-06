@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_destruir_bloqueador",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_destruir_bloqueador",
+  "parent":{
+    "name":"inimigos",
+    "path":"folders/inimigos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
