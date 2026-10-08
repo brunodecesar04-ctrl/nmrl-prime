@@ -90,7 +90,6 @@
     {"id":{"name":"rm_corredor1","path":"rooms/rm_corredor1/rm_corredor1.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_lobby1","path":"rooms/rm_lobby1/rm_lobby1.yy",},},
-    {"id":{"name":"rm_controles","path":"rooms/rm_controles/rm_controles.yy",},},
     {"id":{"name":"rm_menuinicial","path":"rooms/rm_menuinicial/rm_menuinicial.yy",},},
     {"id":{"name":"rm_opcoes","path":"rooms/rm_opcoes/rm_opcoes.yy",},},
     {"id":{"name":"rm_volumes","path":"rooms/rm_volumes/rm_volumes.yy",},},
@@ -235,7 +234,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_controles","path":"rooms/rm_controles/rm_controles.yy",},},
     {"roomId":{"name":"rm_menuinicial","path":"rooms/rm_menuinicial/rm_menuinicial.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_opcoes","path":"rooms/rm_opcoes/rm_opcoes.yy",},},
